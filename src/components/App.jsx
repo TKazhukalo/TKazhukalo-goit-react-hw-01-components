@@ -7,6 +7,8 @@ import data from './Statistics/data.json';
 import { FriendList } from './FriendList/FriendList';
 import friends from './FriendList/friends.json';
 
+import transactions from './Transactions/transactions.json';
+import { TransactionHistory } from './Transactions/TransactionHistory';
 import { Container } from './Profile/Profile.styled';
 export const App = () => {
   return (
@@ -20,6 +22,8 @@ export const App = () => {
       />
       <Statistics title="Upload stats" stats={data} />
       <FriendList friends={friends} />
+      <TransactionHistory items={transactions} />
     </Container>
+   
   );
 };
