@@ -65,9 +65,9 @@ export const Quantity = styled.span`
 export const ListItem=styled.li`
     display: list-item;
     text-align: center;
-   box-shadow: 0 0 0 1px #2e5f20, 0 0 10px #333;
-   padding:20px;
-   width:100px;
+    box-shadow: 0 0 0 1px #2e5f20, 0 0 10px #333;
+    padding:20px;
+    width:100px;
    &:hover{
     box-shadow: 0 0 0 1px #76f752, 0 0 10px #333;
    }

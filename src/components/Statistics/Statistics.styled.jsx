@@ -2,7 +2,6 @@ import styled from 'styled-components';
 import { getRandomColor } from '../Statistics/getRandomColor';
 export const StatisticsSections=styled.section`
   background-color:#a7fd91;
-  padding-top: 14px;
   padding-left:14px;
   padding-right:14px;
   margin-left: auto;
@@ -23,6 +22,7 @@ export const StatListItem=styled.li`
   align-items:center;
   width:50px;
   padding: 8px;
+  border-radius: 15px;
 `
 export const StatLabel=styled.span`
   font-size:20px;
@@ -33,6 +33,7 @@ export const Percentage=styled.span`
   font-size:24px;
 `
 export const Title = styled.h2`
+ box-shadow: 0 0 0 1px #2e5f20, 0 0 10px #333;
   margin-left: auto;
   margin-right: auto;
   padding-top: 30px;
@@ -42,4 +43,7 @@ export const Title = styled.h2`
   background-color: #96db83;
   font-size: 20px;
   font-weight: 700;
+  &:hover{
+     box-shadow: 0 0 0 1px #76f752, 0 0 10px #333;
+  }
 `;
