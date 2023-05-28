@@ -6,6 +6,7 @@ export const List=styled.ul`
     gap: 10px;
     margin: auto;
     padding:0;
+    margin-bottom:20px;
 `
 export const Item = styled.li`
     display:flex;
@@ -34,4 +35,5 @@ export const FrientsName=styled.p`
     font-size:24px;
     font-weight:600;
     margin:0;
+   
 `

@@ -45,5 +45,6 @@ export const Title = styled.h2`
   font-weight: 700;
   &:hover{
      box-shadow: 0 0 0 1px #76f752, 0 0 10px #333;
+     color:#4400fd;
   }
 `;
