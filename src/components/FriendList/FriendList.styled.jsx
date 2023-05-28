@@ -12,6 +12,7 @@ export const Item = styled.li`
     display:flex;
     align-items:center;
     box-shadow: 0 0 0 1px #2e5f20, 0 0 10px #333;
+    border-radius:15px;
     padding: 5px;
  &:hover{
       box-shadow: 0 0 0 1px #76f752, 0 0 10px #333;

@@ -5,22 +5,20 @@ export const Container = styled.div`
     margin: 0 auto;
     border-radius:4px;
     overflow: hidden;
-    box-shadow: 0px 2px 1px -1px rgba(0, 0, 0, 0.2),
-    0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
-   
-`
+    `
 export const Description = styled.div`
   background-color:#96db83;
   padding: 40px;
+   box-shadow: 0 0 0 1px green, 0 0 5px #333;
 `
 export const Avatar = styled.img`
- display:block;
+  display:block;
   margin: 0 auto;
- max-width:200px;
+  max-width:200px;
   border-radius: 100%;
   box-shadow: 0 0 0 2px green, 0 0 13px #333;
 &:hover{
-    box-shadow: 0 0 0 2px green, 0 0 13px #3546e2;
+  box-shadow: 0 0 0 2px green, 0 0 13px #3546e2;
 }
 `
 export const UserName = styled.p`
@@ -41,12 +39,13 @@ export const Options = styled.p`
 `
 export const StatsList = styled.ul`
   list-style-type: none;
- display: flex;
-padding: 0;
-justify-content:space-around;;
-align-items: center;
-padding-left: 14px;
-padding-right: 14px;
+  display: flex;
+  padding: 0;
+  justify-content:space-around;;
+  align-items: center;
+  padding-left: 14px;
+  padding-right: 14px;
+  gap:5px;
 
 `
 export const LabelItem = styled.span`
@@ -65,6 +64,7 @@ export const Quantity = styled.span`
 export const ListItem=styled.li`
     display: list-item;
     text-align: center;
+    border-radius:15px;
     box-shadow: 0 0 0 1px #2e5f20, 0 0 10px #333;
     padding:20px;
     width:100px;

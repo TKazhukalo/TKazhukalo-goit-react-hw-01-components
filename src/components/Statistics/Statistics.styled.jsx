@@ -13,7 +13,8 @@ export const StatList=styled.ul`
   margin-left: auto;
   margin-right: auto;
   padding: 0;
-  gap:10px;
+  gap:8px;
+  margin-bottom:20px;
 `
 export const StatListItem=styled.li`
   display:flex;
@@ -33,11 +34,12 @@ export const Percentage=styled.span`
   font-size:24px;
 `
 export const Title = styled.h2`
- box-shadow: 0 0 0 1px #2e5f20, 0 0 10px #333;
+  box-shadow: 0 0 0 1px #2e5f20, 0 0 10px #333;
   margin-left: auto;
   margin-right: auto;
   padding-top: 30px;
   padding-bottom: 30px;
+  border-radius:15px;
   text-align: center;
   text-transform: uppercase;
   background-color: #96db83;

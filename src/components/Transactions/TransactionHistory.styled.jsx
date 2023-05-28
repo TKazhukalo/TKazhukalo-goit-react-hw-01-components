@@ -9,6 +9,7 @@ export const TableBody = styled.tbody`
 `
 export const TableData=styled.td`
    border: 1px solid green;
+   border-radius:10px;
    font-size:20px;
    padding:5px;
    &:hover{
