@@ -1,13 +1,14 @@
 import styled from 'styled-components';
 export const Container = styled.div`
-   background-color:#a7fd91;
+   background-color:#affc9c;
     width: 428px;
     margin: 0 auto;
     border-radius:4px;
     overflow: hidden;
+    margin-top: 30px;
     `
 export const Description = styled.div`
-  background-color:#96db83;
+ // background-color:#96db83;
   padding: 40px;
    box-shadow: 0 0 0 1px green, 0 0 5px #333;
 `
